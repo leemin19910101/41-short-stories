@@ -1,0 +1,13 @@
+{
+  "name": "kakin-royal-archive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check public/app.js && node --check private/editor.js && node --check worker/index.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
